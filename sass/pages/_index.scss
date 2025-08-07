@@ -1,5 +1,20 @@
 .container {
-  max-width: 1100px;
   margin: 20px auto;
   padding: 0 15px;
+}
+.img-inicio
+{width: 250px;
+height: 200px;
+}
+.history {
+  font-size: large;
+  color: #ffffff;
+}
+.title {
+  color: white;
+}
+.imagen-destacada {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 40px;
 }

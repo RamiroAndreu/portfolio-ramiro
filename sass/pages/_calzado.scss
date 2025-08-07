@@ -1,0 +1,36 @@
+.galeria-calzado{
+    display: flex;
+    flex-direction: column;
+}
+.zapas{
+    width: 300px;
+    height: 190px;
+    animation: parpadeo .5s infinite linear;
+    border-radius: 10px;
+}
+@media screen and (min-width:700px) 
+ {.galeria-calzado{
+    flex-direction: row;
+    justify-content: space-evenly;
+ }
+    
+}
+
+li, p{
+    color: white;
+}
+ 
+@keyframes parpadeo{
+    0%{
+        box-shadow: 0 0 5px #fff;
+    }
+
+    50%{
+        box-shadow: 0 0 15px #fff;
+    }
+
+    100%{
+        box-shadow: 0 0 5px #fff;
+    }
+
+}
