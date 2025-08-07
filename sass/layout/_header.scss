@@ -1,0 +1,39 @@
+header {
+  background-color: #1e88e5;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.texto-header h1,
+.texto-header p {
+  margin: 0;
+}
+
+.foto-header img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .foto-header img {
+    max-width: 120px;
+  }
+}

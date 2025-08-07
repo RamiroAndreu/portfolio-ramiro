@@ -1,0 +1,13 @@
+//BASE SECTION
+@use "base/resets";
+
+//LAYOUT SECTION
+@use "layout/header";
+@use "layout/footer";
+
+//PAGES SECTION
+@use "pages/_index.scss";
+@use "pages/_calzado.scss"; 
+@use "pages/_paletas.scss";
+@use "pages/_consejos.scss";
+@use "pages/_contacto.scss";
