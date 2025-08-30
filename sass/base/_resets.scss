@@ -11,6 +11,12 @@ body {
   overflow-x: hidden;
   position: relative;
   min-height: 100vh;
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 nav {
   background-color: #1565c0;
